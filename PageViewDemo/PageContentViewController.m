@@ -22,7 +22,9 @@
     self.backgroundImageView.image = [UIImage imageNamed:self.imageFile];
     self.titleLabel.text = self.titleText;
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    //test
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
